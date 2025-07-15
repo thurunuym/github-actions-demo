@@ -16,9 +16,10 @@
     // "checkJs": true,
     
     "strict": false,
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "lib": ["es6"]
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist/*", "src/static"],
-  "lib": ["es6"]
+  "exclude": ["node_modules", "dist/*", "src/static"]
+  
 }
